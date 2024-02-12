@@ -1,0 +1,59 @@
+@import url(footer.css);
+
+.background {
+    background-image: url(./images/decorr.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(2px);
+    filter: brightness(0.6);
+    z-index: -1;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.438);
+    overflow: hidden;
+    font-size: 200%;
+}
+
+.navbar .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    float: left;
+}
+
+.nav-links li a {
+    display: block;
+    color: rgb(247, 193, 45);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    background-color: rgba(247, 193, 45, 0.212);
+    color: rgb(247, 193, 45);
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+}

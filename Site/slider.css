@@ -1,0 +1,38 @@
+.swiper-slide {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 10px;
+  }
+  
+  .title{
+    font-weight: bold;
+    font-size: 72px;
+    color: beige;
+    padding-left: 100px;
+  }
+  
+  .subtitle{
+    letter-spacing: 3px;
+    font-size: 24px;
+    color: white;
+    padding-left: 100px;
+  }
+  
+  .slide-dw{
+    background-image: url('./images/DW.webp');
+    background-size: cover;
+  }
+  
+  .slide-cd{
+    background-image: url('./images/CD.webp');
+    background-size: cover;
+  }
+  
+  .slide-cdeb{
+    background-image: url('./images/CDEB.webp');
+    background-size: cover;
+  }
+  

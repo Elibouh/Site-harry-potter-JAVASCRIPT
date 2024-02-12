@@ -1,0 +1,15 @@
+footer {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: antiquewhite;
+}

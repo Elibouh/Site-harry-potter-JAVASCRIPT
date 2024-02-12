@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalnia&family=Preahvihear&display=swap");
+
+body {
+  font-family: "Kalnia", serif;
+  margin: 0;
+}
+
+.background {
+  background-image: url(./images/decorr.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(2px);
+  filter: brightness(0.6);
+  z-index: -1;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.438);
+  overflow: hidden;
+  font-size: 200%;
+}
+
+.navbar .nav-links{
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  float: left;
+}
+
+.nav-links li a {
+  display: block;
+  color: rgb(247, 193, 45);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  background-color: rgba(247, 193, 45, 0.212);
+  color: rgb(247, 193, 45);
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+
+.films {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 80px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  color: rgb(233, 209, 130);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.films img {
+  height: 230px;
+  width: 150px;
+  border: solid 3px rgb(119, 103, 33);
+}
+
+.films h2 {
+  border: solid 1px white;
+  font-size: 18px;
+}
+
+.intro {
+  color: rgb(247, 147, 80);
+  padding-left: 50px;
+}
+
+.intro h1 {
+  padding-left: 50px;
+  font-size: 40px;
+}
+
+.intro p {
+  font-size: 18px;
+}
+
+footer {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.897);
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: antiquewhite;
+}

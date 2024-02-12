@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.css">
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="header.css">
+  </head>
+  <body>
+
+    <div class="background"></div>
+
+    <header>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html"><img src="./images/logo_hp.png" alt="hp" width="50"></a></li>
+          <li><a href="personnages.html">Personnages</a></li>
+          <li><a href="films.html">Films</a></li>
+          <li><a href="formulaire.html">Formulaire</a></li>
+          <li><a href="slider.html">Slider</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+      </nav>
+    </header>
+
+    <main class="portfolio">
+      <div class="filters">
+        <ul>
+          <li data-filter="all" class="active">Tous les projets</li>
+          <li data-filter="cd" >Création & Design</li>
+          <li data-filter="jv">Jeux Video</li>
+          <li data-filter="3d">Animation 3d</li>
+          <li data-filter="dw">Developpement Web</li>
+          <li data-filter="cdeb">Communication digitale</li>
+        </ul>
+      </div>
+      <div class="portfolio-elements">
+        <div class="card filtr-item" data-category="jv">
+          <div class="card-header">
+            <p class="card-title">portal</p>
+            <p class="card-axe">Jeux Video</p>
+          </div>
+          <a href="./portal.jpg">
+            <img src="./portal.jpg" alt="Portal">
+          </a>
+        </div>
+        <div class="card filtr-item" data-category="3d">
+          <div class="card-header">
+            <p class="card-title">Adibou</p>
+            <p class="card-axe">Jeux Video</p>
+          </div>
+          <a href="./adibou.png">
+            <img src="./adibou.png" alt="Adibou">
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <button id="theme">Light Mode</button>
+        <h3>Plus d'informations</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <i class="fa-brands fa-instagram"><a href="https://www.instagram.com/harrypotter/"> Instagram</a></i>
+          <i class="fa-brands fa-tiktok"><a href="https://www.tiktok.com/@harrypotter?lang=fr"> Tiktok </a></i>
+          <i class="fa-brands fa-youtube"><a href="https://www.youtube.com/@harrypotter"> Youtube</a></i>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js"
+      integrity="sha512-MMprw2AB5GAiQmXXEz5JYiGq2waU0iqD7Whj33m1w0V6Zzt1wyTFnr6rxWW8mfdQ/VksbUkU5c8sVGlO+3stew=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/data-filter@3.1.1/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.js"></script>
+    <!-- Script en javascript -->
+    <script src="portfolio.js"></script>
+  </body>
+</html>
